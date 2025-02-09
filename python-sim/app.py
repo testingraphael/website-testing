@@ -48,7 +48,3 @@ def execute():
 
 if __name__ == '__main__':
     app.run(debug=True)
-    
-os.makedirs("templates", exist_ok=True)
-with open("templates/index.html", "w") as f:
-    f.write(html_content)
